@@ -234,7 +234,7 @@ Instead of a hard-coded string the property can be set in a method/contructor or
 
 [How to Add report viewer to a Silverlight application]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/silverlight-application/how-to-add-report-viewer-to-a-silverlight-application%})
 
-# See Also
+## See Also
 
 
 # See Also

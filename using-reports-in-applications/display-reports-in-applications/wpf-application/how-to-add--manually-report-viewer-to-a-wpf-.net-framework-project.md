@@ -63,3 +63,8 @@ In case you use *Telerik UI for WPF*  version greater           than the __lates
 1. The previous step will open *Choose Toolbox Items*  dialog. Select the                   *WPF Components*  tab and find the *ReportViewer*  component                   from the *Telerik.ReportViewer.Wpf*  assembly.                 
 
 1. Click *OK* 
+
+## See Also
+
+
+ * [How to Add report viewer to a WPF .NET Framework project]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/wpf-application/how-to-add-report-viewer-to-a-wpf-.net-framework-project%})

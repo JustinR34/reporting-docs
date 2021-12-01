@@ -243,3 +243,6 @@ namespace CSharp.AspNetCoreDemo.Controllers
 ## Examples
 
 Find the complete example setup of the Web Report Designer in the __AspNetCoreDemo__            located in Telerik Reporting installation folder. For example,           *%PROGRAMFILES(x86)%\Progress\Telerik Reporting* .           The Web Report Designer’s page is in __wwwroot__  folder. To setup the page to be a startup           page, change the launchUrl to webReportDesigner.html in *launchSettings.json* .         
+
+## See Also
+

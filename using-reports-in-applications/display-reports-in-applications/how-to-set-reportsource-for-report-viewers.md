@@ -285,3 +285,10 @@ The following Report Viewers are designed to work as clients of  [Telerik Report
 * __WPF ReportViewer__                - the client report source is set in the same way as if the viewer is connected to a __Telerik Reporting REST Service__                (go to section [link](1d2ff87d-335f-4640-be56-e2737220a8c9#WPFClientReportSource))             
 
 These Report Viewers do not have direct access to Telerik Reporting Engine. Reports are processed and rendered on a remote machine where Telerik Report Server is running,           and the content is delivered to the client by __Telerik Report Server's REST Service__ .         
+
+## See Also
+
+
+ * [How to: Implement and use custom IReportResolver (Reporting WCF Service's Report Resolver)]({%slug telerikreporting/using-reports-in-applications/host-the-report-engine-remotely/telerik-reporting-wcf-service/how-to-implement-and-use-custom-ireportresolver%})
+
+ * [Reporting REST Service's Report Source Resolver]({%slug telerikreporting/using-reports-in-applications/host-the-report-engine-remotely/telerik-reporting-rest-services/rest-service-report-source-resolver/overview%})

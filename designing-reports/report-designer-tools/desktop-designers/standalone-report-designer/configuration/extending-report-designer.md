@@ -61,3 +61,19 @@ To instruct the Report Designer to look for assemblies in other locations as wel
 </configuration>
 ````
 
+
+
+## See Also
+
+
+# See Also
+
+ * [How to use external assemblies with custom CLR objects in the Report Designer](http://www.telerik.com/support/kb/reporting/customization-tip/how-to-use-external-assemblies-with-custom-clr-objects-in-the-report-designer.aspx)
+
+ * [How to use external assemblies with custom user functions in the Report Designer](http://www.telerik.com/support/kb/reporting/customization-tip/how-to-use-external-assemblies-with-custom-user-functions-in-the-report-designer.aspx)
+
+ * [Previewing a report definition that uses an external assembly](http://www.telerik.com/support/kb/reporting/report-viewers/deploying-trdx-that-uses-external-assembly.aspx)
+
+ * [Configuration]({%slug telerikreporting/designing-reports/report-designer-tools/desktop-designers/standalone-report-designer/configuration/overview%})
+
+ * [Report Designer Configuration]({%slug telerikreporting/designing-reports/report-designer-tools/desktop-designers/standalone-report-designer/configuration/report-designer-configuration%})

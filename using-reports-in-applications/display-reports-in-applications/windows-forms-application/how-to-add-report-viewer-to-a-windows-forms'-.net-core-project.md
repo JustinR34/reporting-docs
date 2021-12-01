@@ -125,3 +125,10 @@ The above settings assume that the REST Service is running on http://localhost:5
 
 The above settings assume that the Report Server is running on http://yourreportserver:83.                       Note that you need to provide valid username and password so that the viewer can login successfully, or have the guest user enabled in the Report Server.                     
 
+
+## See Also
+
+
+ * [Report Viewer Localization]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/windows-forms-application/report-viewer-localization%})
+
+ * [.NET Core Support]({%slug telerikreporting/using-reports-in-applications/dot-net-core-support%})

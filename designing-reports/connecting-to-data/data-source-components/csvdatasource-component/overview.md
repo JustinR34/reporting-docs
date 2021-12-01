@@ -54,3 +54,6 @@ Below are listed the available settings for formatting the data retrieved from t
 * .NET Core 2.0 and above             
 
 * .NET Standard 2.0 and above             
+
+## See Also
+

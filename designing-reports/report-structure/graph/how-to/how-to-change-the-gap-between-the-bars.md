@@ -63,7 +63,7 @@ To change the __Scale.SpacingSlotCount__  property, follow these steps:
 
   ![Graph Axis Spacing Slot Count Selected](images/Graph/GraphAxis_SpacingSlotCount_Selected.png)
 
-# See Also
+## See Also
 
 
 # See Also

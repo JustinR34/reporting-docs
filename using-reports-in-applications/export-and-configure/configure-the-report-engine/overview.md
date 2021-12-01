@@ -198,7 +198,7 @@ The JSON-based configuration structure used in __appSettings.json__  or other ke
 
 
 
-# See Also
+## See Also
 
 
  * [Device Information Settings]({%slug telerikreporting/using-reports-in-applications/export-and-configure/configure-the-export-formats/overview%})

@@ -45,3 +45,8 @@ Reports can be stored in different locations and in different formats so use the
 
 >important When choosing  __Type name__  for a source, you must make sure that both reports use the same Telerik Reporting version then rebuild the application in order to load the sub-report report source.           
 
+
+## See Also
+
+
+ * [Report Sources]({%slug telerikreporting/designing-reports/report-sources/overview%}) * [UriReportSource](/reporting/api/Telerik.Reporting.UriReportSource)  * [TypeReportSource](/reporting/api/Telerik.Reporting.TypeReportSource)  * [InstanceReportSource](/reporting/api/Telerik.Reporting.InstanceReportSource)  * [XmlReportSource](/reporting/api/Telerik.Reporting.XmlReportSource) 

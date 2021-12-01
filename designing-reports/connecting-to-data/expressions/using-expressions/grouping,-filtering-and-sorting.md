@@ -24,7 +24,7 @@ It is important to understand that these operations perform  		comparison/combin
 
 * Converting a value retrieved from the data source from one data type to a different data type.
 
-# See Also
+## See Also
 
 
  * [Grouping Data]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data/overview%})

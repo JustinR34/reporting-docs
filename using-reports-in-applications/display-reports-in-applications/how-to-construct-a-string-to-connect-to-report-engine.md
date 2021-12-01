@@ -118,5 +118,5 @@ You can use a  [RestServiceConnectionInfo](/reporting/api/Telerik.ReportViewer.C
 
 
 
-# See Also
+## See Also
  * [EmbeddedConnectionInfo](/reporting/api/Telerik.ReportViewer.Common.EmbeddedConnectionInfo)  * [ReportServerConnectionInfo](/reporting/api/Telerik.ReportViewer.Common.ReportServerConnectionInfo)  * [RestServiceConnectionInfo](/reporting/api/Telerik.ReportViewer.Common.RestServiceConnectionInfo) 

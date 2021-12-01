@@ -12,13 +12,13 @@ position: 6
 
 This article elaborates on how to localize the strings used and displayed by the Web Report Designer.
 
-1. __Include script containing strings.__  Create a JavaScript file in your application, in a location where it can be referenced by               the HTML-page/View containing the Web Report Designer initialization script. This can for example be inside the 'Scripts' folder of your website.             
+1. __Include script containing strings.__ Create a JavaScript file in your application, in a location where it can be referenced by the HTML-page/View containing the Web Report Designer initialization script. This can for example be inside the 'Scripts' folder of your website.             
 
 {{source=..\..\Source\Code\Telerik.WebReportDesigner\ClientApp\js\src\WebReportDesignerStringsBase.js}}
   ````WebReportDesignerStrings.en-EN.js
   import { ServiceBase } from "./Interfaces/IServiceProvider.js";
-  export class WebReportDesignerStringsBase extends ServiceBase {
-	constructor() {
+    export class WebReportDesignerStringsBase extends ServiceBase {
+	  constructor() {
 	    super(...arguments);
 	    this.ToolboxAreaTitle = "Components";
 	    this.PropertiesTitle = "Properties";
@@ -628,17 +628,17 @@ This article elaborates on how to localize the strings used and displayed by the
 	    this.ErrorOpeningTheFile = "An error occurred when trying to open the file";
 	    this.FileTooLargeToUpload = "The file '{filename}' is too large to upload.";
 	    this.GenericError = "An error has occurred";
-	}
-  }
-  //# sourceMappingURL=WebReportDesignerStringsBase.js.map
+      }
+    }
+    //# sourceMappingURL=WebReportDesignerStringsBase.js.map
 ````
 
    >note On the last line in the file above there is a comment with 'sourceMappingURL' that is automatically included as part of the build process. This line can be removed.
 
-1. __Reference the file containing the strings.__  On the page containing the Web Report Designer and its initialization script, add in the following snippet of JavaScript to load in the strings.             
+1. __Reference the file containing the strings.__ On the page containing the Web Report Designer and its initialization script, add in the following snippet of JavaScript to load in the strings.             
 
   ````js
-  <script type="text/javascript">
+<script type="text/javascript">
     import("/Scripts/WebReportDesignerStrings.EN-en.js").then((result) => {
       window.telerikWebDesignerResources = new result.WebReportDesignerStringsBase();
     });

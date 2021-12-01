@@ -124,3 +124,12 @@ If you are using a custom color palette, you can change the order of the colors 
 1. In the __Appearance__  group. Set the ColorPalette property to -                   __Monochromatic Palette__ .                 
 
 1. Set appropriately __BaseColor, MaxLightness and MinLightness properties__ .                 
+
+## See Also
+
+
+ * [Graph Structure]({%slug telerikreporting/designing-reports/report-structure/graph/structure%})
+
+ * [Conditional Formatting]({%slug telerikreporting/designing-reports/styling-reports/conditional-formatting%})
+
+ * [Style Inheritance and Overriding]({%slug telerikreporting/designing-reports/styling-reports/style-inheritance-and-overriding%}) * [GraphSeries](/reporting/api/Telerik.Reporting.GraphSeries) 
