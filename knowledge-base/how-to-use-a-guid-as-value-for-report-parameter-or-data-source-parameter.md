@@ -7,7 +7,18 @@ slug: how-to-use-a-guid-as-value-for-report-parameter-or-data-source-parameter-
 res_type: kb
 ---
  
-# Description  
+## Environment
+<table>
+    <tbody>
+	    <tr>
+	    	<td>Product</td>
+	    	<td>Progress® Telerik® Reporting</td>
+	    </tr>
+    </tbody>
+</table>
+ 
+## Description  
+
 The article explains how to use a Guid as value for report parameter or data source parameter. 
   
 # Solution
