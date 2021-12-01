@@ -1,14 +1,14 @@
 ---
-title: Grouping Data  Overview
+title: Grouping Data Overview
 page_title: Overview | for Telerik Reporting Documentation
 description: Overview
-slug: telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data-/overview
+slug: telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data/overview
 tags: overview
 published: True
 position: 0
 ---
 
-# Grouping Data  Overview
+# Grouping Data Overview
 
 
 

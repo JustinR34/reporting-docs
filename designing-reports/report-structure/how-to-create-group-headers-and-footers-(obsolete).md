@@ -12,7 +12,7 @@ position: 3
 
 
 
-Each Report Group has a Group Header and a Group Footer section associated with it. How to create a Report Group is explained in [How-To: Add groups to Report]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data-/how-to-add-groups-to-report%}) article.
+Each Report Group has a Group Header and a Group Footer section associated with it. How to create a Report Group is explained in [How-To: Add groups to Report]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data/how-to-add-groups-to-report%}) article.
 
 ## Group Header/Footer Specific Properties
 

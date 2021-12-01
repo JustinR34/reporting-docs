@@ -27,7 +27,7 @@ It is important to understand that these operations perform  		comparison/combin
 # See Also
 
 
- * [Grouping Data]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data-/overview%})
+ * [Grouping Data]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data/overview%})
 
  * [Ordering Data]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/ordering-data/overview%})
 

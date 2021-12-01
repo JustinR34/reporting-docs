@@ -1,146 +1,5 @@
 Петър Милчев - Ajax support
 
-
-
-Fixed:
-
-Change _config.yml file for TOC, etc.
-
-
-clear '\r\n' in ALERTS
-
-add '  \r\n' before '!['
-
-TABLES with multiple lines in the same cell - change '\r\n' with '<br/>'.
-
-BOLD externalLink - change XSLT schema for legacyBold 
-
-code tag - sourceFile fixed to the local one. Need to provide correct paths to jeqyll
-
-TOKENS for the version - make <token> tag to {{site.tokenName}} and set it value in _config.yml
-
-For TITLES use normalize-space in XSLT
-
-[CDATA] code handling in custom code like with CODE-with source
-
-
-Change links from conceptual articles to api-ref articles like:
-<codeEntityReference qualifyHint="false" autoUpgrade="true">M:Telerik.Reporting.Processing.ReportProcessor.RenderReport(System.String,Telerik.Reporting.ReportSource,System.Collections.Hashtable)</codeEntityReference>
-		  
-[RenderReport](/reporting/api/Telerik.Reporting.Processing.ReportProcessor.html#collapsible-Telerik_Reporting_Processing_ReportProcessor_RenderReport_System_String_Telerik_Reporting_ReportSource_System_Collections_Hashtable_)
-
-Code and other nodes in steps - 4 spaces indent 
-
-procedure/titles
-
-section/titles
-
-Handle The structure
-<![CDATA[...<link href="https://kendo.cdn.telerik.com/]]><token...>kendosubsetversion</token><![CDATA[...
-
-
-this nested <code> elements were removed in the mamls:
-<code language="c#">
-  <code source="CodeSnippets\MvcCS\Views\Home\InvoiceParameters.cshtml" region="ParametersExample" />
-</code>
-<code language="vb.net">
-  <code source="CodeSnippets\MvcVB\Views\Home\InvoiceParameters.vbhtml" region="ParametersExample" />
-</code>
-file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-items-html-text-box-validation.aml
-file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-sources-viewers.aml
-file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization2.aml
-file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization3.aml
-file:///D:/Work/2018/Hotfix/Documentation/Help/Content/MVCExtensions/mvc-report-viewer-howto-custom-parameters.aml
-
-
-fixed feedback - The unordered list is not part of the whole list (the one under the second bullet item in the section), thus it is on the same level - https://reportinghost:446/reporting/installation#installing-telerik-reporting
-
-fixed feedback, added a new line before the image - Images are not in a “mediaNear” div and thus there is missing top and bottom margins - https://reportinghost:446/reporting/installation#installing-telerik-reporting
-
-
-Fixed listItems without <para>
-
-
-If <procedure> is not in <section> (should be for correct maml) the entire procedure is not rendered. Fix the maml files in documentation:
-	wpf-report-viewer-add-to-net-core-project.aml
-
-code from source cannot be displayed if no region specified - wpf-report-viewer-add-to-net-core-project.aml
-
-
-apply normalize-space to legacyBold/legacyItalic/legacyUnderline to remove whitespace/new lines as the new lines break it - cubedatasource-configuring-project.maml
-
-designing-performance.maml - legacyBold/legacyItalic/legacyUnderline not correct - fixed by adding additional ' ' in the XSLT schema
-
-
-​[5:17 PM] Kaloyan Kotorov
-    C#/VB code comment-ите са един под друг, вместо да с табове
-
-SOLUTION 1 (AJAX) - no line between two codes;Language name next to the apostrophies, no intervals - ````C#. May have also {{source}} between snippets
-
-{{source=CodeSnippets\CS\API\Telerik\Reporting\Processing\ReportProcessorSnippets.cs region=Export_Single_Stream_Snippet}}
-````C#
-\\code should start from the beginning of the line
-var reportProcessor = ...
-````
-{{source=CodeSnippets\VB\API\Telerik\Reporting\Processing\ReportProcessorSnippets.vb region=Export_Single_Stream_Snippet}}
-````VB
-'code should start from the beginning of the line
-Dim ...
-````
-
-
-
-Corrected with replacing '/' with '-' and '.' with 'dot' in converter:
-article names should not start with a dot '.'. Rename the article D:\Documentation migration tool-original\Help\telerikreporting\using-reports-in-applications\.net-core-support.md -> D:\Documentation migration tool-original\Help\telerikreporting\using-reports-in-applications\dotnet-core-support.md
-Some article titles contain '/' that is interpreted as new subfolder and their names need to be updated manually - in the original MAML:
-	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\sorting-action\sorting-multiple-items\groups.md
-	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\how-to\how-to-add-a-drilldown\toggle-visibility-action.md
-	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\how-to\how-to-add-a-drillthrough\navigate-to-report-action.md
-	D:\Work\reporting-docs\using-reports-in-applications\export-and-configure\configure-the-export-formats\wpfxaml\wpfxamlinteractive-device-information-settings.md
-
-
-replace these code blocks with single blocks manually in the CS/VB snippets and correct the mamls. use Partial classes to avoid very long snippets:
-In some articles there are code blocks that have what should appear as a single code snippet by two code blocks - for example:
-VB codes in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-items-html-text-box-validation.aml - done
-all code in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization2.aml - done
-all code in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization3.aml - done
-
-
-
-http://arabadzhiev:1589/reporting/designing-reports/connecting-to-data/data-source-components/objectdatasource-component/overview
-Reason: legacyBold/externalLink transformation not working as expected
-Fix: new legacyBold template with choose
-
-
-
-Kotorov -    See Also секцията е празна навсякъде
-Looks like the problem is in the text 'See Also'. The MD file seems correct and when you change the text, e.g. "Seems Also" the section appears.
-This is a feature that moves element with ID 'see-also' on the side when it has only links
-Handled with code the codeEntityReference elements in relatedTopics (http://arabadzhiev:1589/reporting/designing-reports/connecting-to-data/how-to-set-a-no-data-message)
-
-Removed all commented code in maml with xslt
-
-There are 4 document types:
-	developerTroubleshootingDocument
-	developerWalkthroughDocument
-	developerHowToDocument - handled
-	developerConceptualDocument - handled
-
-
-
-REMAINING:
-
-
-Document types to handle:
-	developerTroubleshootingDocument
-	developerWalkthroughDocument
-
-
-how to pass the real tokes to _config.yml
-
-how to use tokens in code snippets (CDATA)
-
-
 API Ref:
 template:
 /p:LatestBinariesPath=${LatestBinariesPath};DocsRepoName=${DocsRepoName};DocumentationBaseUrl=${DocumentationBaseUrl};DocsRepoApiAssetsFolder=${DocsRepoApiAssetsFolder}
@@ -151,6 +10,17 @@ msbuild /p:LatestBinariesPath="\\telerik.com\distributions\DailyBuilds\REPORTING
 Test - run in D:\Work
 msbuild /p:LatestBinariesPath="D:\Work\MdDocs\Examples\CSharp\.NET Framework\Html5IntegrationDemo\bin";DocsRepoName=reporting-docs;DocumentationBaseUrl=https://docs.telerik.com/reporting/;DocsRepoApiAssetsFolder=_assetsApi docs-seed/_buildApi/BuildApiReference.proj
 
+
+REMAINING:
+
+Document types to handle:
+	developerTroubleshootingDocument
+	developerWalkthroughDocument
+
+
+how to pass the real tokes to _config.yml
+
+how to use tokens in code snippets (CDATA)
 
 
 
@@ -318,3 +188,176 @@ CodeMainPathVB = pathToSourceCodeFiles + @"\SamplesVB\";
 ...
 string workspaceName = "WinForms_Scrum";
 string projectPath = @"$/WinForms_Scrum/Development/Help";
+
+
+
+
+
+
+
+FIXED:
+
+Change _config.yml file for TOC, etc.
+
+
+clear '\r\n' in ALERTS
+
+add '  \r\n' before '!['
+
+TABLES with multiple lines in the same cell - change '\r\n' with '<br/>'.
+
+BOLD externalLink - change XSLT schema for legacyBold 
+
+code tag - sourceFile fixed to the local one. Need to provide correct paths to jeqyll
+
+TOKENS for the version - make <token> tag to {{site.tokenName}} and set it value in _config.yml
+
+For TITLES use normalize-space in XSLT
+
+[CDATA] code handling in custom code like with CODE-with source
+
+
+Change links from conceptual articles to api-ref articles like:
+<codeEntityReference qualifyHint="false" autoUpgrade="true">M:Telerik.Reporting.Processing.ReportProcessor.RenderReport(System.String,Telerik.Reporting.ReportSource,System.Collections.Hashtable)</codeEntityReference>
+		  
+[RenderReport](/reporting/api/Telerik.Reporting.Processing.ReportProcessor.html#collapsible-Telerik_Reporting_Processing_ReportProcessor_RenderReport_System_String_Telerik_Reporting_ReportSource_System_Collections_Hashtable_)
+
+Code and other nodes in steps - 4 spaces indent 
+
+procedure/titles
+
+section/titles
+
+Handle The structure
+<![CDATA[...<link href="https://kendo.cdn.telerik.com/]]><token...>kendosubsetversion</token><![CDATA[...
+
+
+this nested <code> elements were removed in the mamls:
+<code language="c#">
+  <code source="CodeSnippets\MvcCS\Views\Home\InvoiceParameters.cshtml" region="ParametersExample" />
+</code>
+<code language="vb.net">
+  <code source="CodeSnippets\MvcVB\Views\Home\InvoiceParameters.vbhtml" region="ParametersExample" />
+</code>
+file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-items-html-text-box-validation.aml
+file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-sources-viewers.aml
+file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization2.aml
+file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization3.aml
+file:///D:/Work/2018/Hotfix/Documentation/Help/Content/MVCExtensions/mvc-report-viewer-howto-custom-parameters.aml
+
+
+fixed feedback - The unordered list is not part of the whole list (the one under the second bullet item in the section), thus it is on the same level - https://reportinghost:446/reporting/installation#installing-telerik-reporting
+
+fixed feedback, added a new line before the image - Images are not in a “mediaNear” div and thus there is missing top and bottom margins - https://reportinghost:446/reporting/installation#installing-telerik-reporting
+
+
+Fixed listItems without <para>
+
+
+If <procedure> is not in <section> (should be for correct maml) the entire procedure is not rendered. Fix the maml files in documentation:
+	wpf-report-viewer-add-to-net-core-project.aml
+
+code from source cannot be displayed if no region specified - wpf-report-viewer-add-to-net-core-project.aml
+
+
+apply normalize-space to legacyBold/legacyItalic/legacyUnderline to remove whitespace/new lines as the new lines break it - cubedatasource-configuring-project.maml
+
+designing-performance.maml - legacyBold/legacyItalic/legacyUnderline not correct - fixed by adding additional ' ' in the XSLT schema
+
+
+​[5:17 PM] Kaloyan Kotorov
+    C#/VB code comment-ите са един под друг, вместо да с табове
+
+SOLUTION 1 (AJAX) - no line between two codes;Language name next to the apostrophies, no intervals - ````C#. May have also {{source}} between snippets
+
+{{source=CodeSnippets\CS\API\Telerik\Reporting\Processing\ReportProcessorSnippets.cs region=Export_Single_Stream_Snippet}}
+````C#
+\\code should start from the beginning of the line
+var reportProcessor = ...
+````
+{{source=CodeSnippets\VB\API\Telerik\Reporting\Processing\ReportProcessorSnippets.vb region=Export_Single_Stream_Snippet}}
+````VB
+'code should start from the beginning of the line
+Dim ...
+````
+
+
+
+Corrected with replacing '/' with '-' and '.' with 'dot' in converter:
+article names should not start with a dot '.'. Rename the article D:\Documentation migration tool-original\Help\telerikreporting\using-reports-in-applications\.net-core-support.md -> D:\Documentation migration tool-original\Help\telerikreporting\using-reports-in-applications\dotnet-core-support.md
+Some article titles contain '/' that is interpreted as new subfolder and their names need to be updated manually - in the original MAML:
+	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\sorting-action\sorting-multiple-items\groups.md
+	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\how-to\how-to-add-a-drilldown\toggle-visibility-action.md
+	D:\Work\reporting-docs\designing-reports\adding-interactivity-to-reports\actions\how-to\how-to-add-a-drillthrough\navigate-to-report-action.md
+	D:\Work\reporting-docs\using-reports-in-applications\export-and-configure\configure-the-export-formats\wpfxaml\wpfxamlinteractive-device-information-settings.md
+
+
+replace these code blocks with single blocks manually in the CS/VB snippets and correct the mamls. use Partial classes to avoid very long snippets:
+In some articles there are code blocks that have what should appear as a single code snippet by two code blocks - for example:
+VB codes in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-items-html-text-box-validation.aml - done
+all code in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization2.aml - done
+all code in file:///D:/Work/2018/Hotfix/Documentation/Help/Content/report-viewer-localization3.aml - done
+
+
+
+http://arabadzhiev:1589/reporting/designing-reports/connecting-to-data/data-source-components/objectdatasource-component/overview
+Reason: legacyBold/externalLink transformation not working as expected
+Fix: new legacyBold template with choose
+
+
+
+Kotorov -    See Also секцията е празна навсякъде
+Looks like the problem is in the text 'See Also'. The MD file seems correct and when you change the text, e.g. "Seems Also" the section appears.
+This is a feature that moves element with ID 'see-also' on the side when it has only links
+Handled with code the codeEntityReference elements in relatedTopics (http://arabadzhiev:1589/reporting/designing-reports/connecting-to-data/how-to-set-a-no-data-message)
+
+Removed all commented code in maml with xslt
+
+There are 4 document types:
+	developerTroubleshootingDocument
+	developerWalkthroughDocument
+	developerHowToDocument - handled
+	developerConceptualDocument - handled
+
+
+
+
+reports not being generated due to long names - solved:
+****
+D:\Work\2018\Hotfix\Documentation\Help\Content\asp-net-report-viewer-outproc-modify-textbox-value.aml---
+---d:\documentation migration tool-original\help\telerikreporting/using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/design-considerations-for-out-proc-session-state-/how-to-modify-the-value-of-a-textbox-item-using-an-expression-and-a-report-parameter.md
+
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\asp-net-report-viewer-outproc-using report-params-to-retrieve-specific-data.aml ---
+---"telerikreporting/using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/design-considerations-for-out-proc-session-state-/how-to-using-report-parameters-to-retrieve-specific-data"
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\HTML5WebFormsControls\webforms-report-viewer-howto-use-it-with-reportserver.aml ---
+---d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\display-reports-in-applications\web-application\html5-asp.net-web-forms-report-viewer\how-to-use-html5-asp.net-web-forms-report-viewer-with-report-server.md
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\RESTService\telerik-reporting-rest-host-http-service-using-web-hosting.aml ---
+--- d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\host-the-report-engine-remotely\telerik-reporting-rest-services\asp.net-web-api-implementation\how-to-add-telerik-reporting-rest-web-api-to-web-application.md
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\RESTService\telerik-reporting-rest-service-aspnetcore-mvc-core2.aml
+d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\host-the-report-engine-remotely\telerik-reporting-rest-services\asp.net-core-web-api-implementation\how-to-host-reports-service-in-asp.net-core-2.1-and-2.2.md
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\RESTService\telerik-reporting-rest-service-aspnetcore-net5.aml
+d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\host-the-report-engine-remotely\telerik-reporting-rest-services\asp.net-core-web-api-implementation\how-to-host-reports-service-in-asp.net-core-in-.net-5.md
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\RESTService\telerik-reporting-rest-servicestack-hosting-iis.aml
+d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\host-the-report-engine-remotely\telerik-reporting-rest-services\servicestack-implementation\how-to-add-telerik-reporting-rest-servicestack-to-web-application.md
+
+D:\Work\2018\Hotfix\Documentation\Help\Content\RESTService\telerik-reporting-rest-using-custom-report-resolver-and-document-resolver.aml
+d:\documentation migration tool-original\help\telerikreporting\using-reports-in-applications\host-the-report-engine-remotely\telerik-reporting-rest-services\rest-service-report-source-resolver\how-to-use-custom-report-source-resolver-and-custom-report-document-resolver.md
+****
+
+Fix just to generate the MD and leave original reference:
+Line 411: Failure converting D:\Work\2018\Hotfix\Documentation\Help\Content\web-report-designer-localization.aml to d:\d\help\telerikreporting\designing-reports\report-designer-tools\web-report-designer\localizing-the-web-report-designer.md --- Could not find a part of the path 'D:\Work\Source\Code\Telerik.WebReportDesigner\ClientApp\js\src\WebReportDesignerStringsBase.js'.
+
+
+- doesn't work
+<code source="..\..\Source\Code\Telerik.WebReportDesigner\ClientApp\js\src\WebReportDesignerStringsBase.js" language="js" title="WebReportDesignerStrings.en-EN.js" />
+
+- works
+<code lang="C#" source="CodeSnippets\CS\API\Telerik\Reporting\ObjectDataSourceSnippets.cs" region="HowToBindToBusinessObjectSnippet" />
+
+

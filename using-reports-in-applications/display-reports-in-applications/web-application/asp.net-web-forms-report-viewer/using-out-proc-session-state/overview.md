@@ -1,14 +1,14 @@
 ---
-title: Design Considerations for Out-proc Session State  Overview
+title: Using Out-proc Session State Overview
 page_title: Overview | for Telerik Reporting Documentation
 description: Overview
-slug: telerikreporting/using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/design-considerations-for-out-proc-session-state-/overview
+slug: telerikreporting/using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/using-out-proc-session-state/overview
 tags: overview
 published: True
 position: 0
 ---
 
-# Design Considerations for Out-proc Session State  Overview
+# Using Out-proc Session State Overview
 
 
 

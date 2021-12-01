@@ -37,7 +37,7 @@ __Path parameters__
 
 | HTTP Status Code | Description |
 | ------ | ------ |
-|`200 OK`|Document destroyed successfully.|
+|`204 NoContent`|Document destroyed successfully.|
 |`410 Gone`|The specified clientId cannot be found (expired).|
 |`404 Not Found`|The specified instanceId or documentId cannot be found|
 
@@ -53,7 +53,7 @@ __Path parameters__
 
 
 	
-          HTTP/1.1 200 OK
+          HTTP/1.1 204 NoContent
         
 
 

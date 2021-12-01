@@ -64,7 +64,7 @@ Report items are used in the report depending on the data that should be display
 
  * [How to Layout Report Items]({%slug telerikreporting/designing-reports/report-structure/how-to/how-to-layout-report-items%})
 
- * [How to Add groups to Report]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data-/how-to-add-groups-to-report%})
+ * [How to Add groups to Report]({%slug telerikreporting/designing-reports/connecting-to-data/data-items/grouping-data/how-to-add-groups-to-report%})
 
  * [How to Add/Remove Report Header & Footer Sections]({%slug telerikreporting/designing-reports/report-structure/how-to/how-to-add-remove-report-header-&-footer-sections%})
 

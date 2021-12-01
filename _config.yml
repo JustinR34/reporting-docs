@@ -186,7 +186,7 @@ navigation:
     designing-reports/connecting-to-data/data-items/ordering-data:
         position: 1100
         title: "Ordering Data" 
-    designing-reports/connecting-to-data/data-items/grouping-data-:
+    designing-reports/connecting-to-data/data-items/grouping-data:
         position: 1200
         title: "Grouping Data" 
     designing-reports/connecting-to-data/expressions:
@@ -313,7 +313,7 @@ navigation:
     using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer:
         position: 1500
         title: "ASP.NET Web Forms Report Viewer"
-    using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/design-considerations-for-out-proc-session-state-:
+    using-reports-in-applications/display-reports-in-applications/web-application/asp.net-web-forms-report-viewer/using-out-proc-session-state:
         position: 1500
         title: "Design Considerations for Out-proc Session State"
     using-reports-in-applications/display-reports-in-applications/web-application/troubleshooting:
