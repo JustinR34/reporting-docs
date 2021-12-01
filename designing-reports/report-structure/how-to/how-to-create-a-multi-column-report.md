@@ -62,7 +62,7 @@ The following specifics are visible from the preview:
 
 * Page header and page footer sections span the actual width of the page, not the width of the column.
 
-## See Also
+# See Also
 
 
 # See Also

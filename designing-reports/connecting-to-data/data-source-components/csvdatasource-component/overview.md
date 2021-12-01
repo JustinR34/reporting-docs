@@ -55,5 +55,5 @@ Below are listed the available settings for formatting the data retrieved from t
 
 * .NET Standard 2.0 and above             
 
-## See Also
+# See Also
 

@@ -153,7 +153,7 @@ Telerik Reporting ships with a ready-made .NET Core examples that demonstrate ho
 
 An example project is available in the Telerik Reporting installation directory            *\Examples\CSharp\Asp.NetCoreDemo*  subfolder.         
 
-## See Also
+# See Also
 
 
  * [How to Use HTML5 Report Viewer in an ASP.NET Core 2.1 and 2.2 application]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/web-application/html5-report-viewer/how-to-use-html5-report-viewer-in-an-asp.net-core-2.1-and-2.2-application%})

@@ -42,7 +42,7 @@ You can change the parallels and meridians style by selecting the property and u
 
 1. When you are done, click OK.                 
 
-## See Also
+# See Also
  * [GraticuleLine](/reporting/api/Telerik.Reporting.GraticuleLine)  * [Style](/reporting/api/Telerik.Reporting.Drawing.Style) 
 
  * [Map Overview]({%slug telerikreporting/designing-reports/report-structure/map/structure/overview%})

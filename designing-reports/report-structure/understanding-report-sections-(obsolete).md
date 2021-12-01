@@ -30,7 +30,7 @@ The following table presents a summary of the section types and their usage:
 
 
 
-## See Also
+# See Also
 
 
  * [How to Add/Remove Report Header & Footer Sections]({%slug telerikreporting/designing-reports/report-structure/how-to/how-to-add-remove-report-header-&-footer-sections%})

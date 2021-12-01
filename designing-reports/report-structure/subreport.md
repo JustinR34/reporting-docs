@@ -32,7 +32,7 @@ The SubReport report item lets you display one report within another report. It 
 
 To remove blank vertical space in the detail section of a __SubReport__ , set the Height of        		the __SubReport.ReportSource__ __DetailSection__  to the height of the          	tallest item. Sections can grow to accommodate their children but cannot shrink to hide empty space. If you want the          	detail section to shrink only at runtime you can set the Height property of the DetailSection in the report constructor.          	Place the __Height__  property assignment code just after the IntializeComponent() method call.
 
-## See Also
+# See Also
 
 
  * [How to configure a ReportSource for a SubReport]({%slug telerikreporting/designing-reports/report-sources/how-to-set-reportsource-for-subreport%})

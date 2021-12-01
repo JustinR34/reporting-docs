@@ -85,5 +85,5 @@ The OpenAccessDataSource component wraps data models created by the means of Tel
 
 * __"Could not load file or assembly 'Telerik.OpenAccess(.xxx), Version=x.x.x.x, Culture=neutral, PublicKeyToken=xxx' or one of its dependencies. The system cannot find the file specified." on preview of report__ The error can be seen if projects use different version of Telerik Data Access or a project does not have references to Telerik Data Access.               Adding references to the same Telerik Data Access version in all projects resolves the problem. In case a project uses older version of               Telerik Data Access, test adding  [binding redirects](http://msdn.microsoft.com/en-us/library/7wd6ex19(v=vs.110).aspx)  to the new version.             
 
-## See Also
+# See Also
 

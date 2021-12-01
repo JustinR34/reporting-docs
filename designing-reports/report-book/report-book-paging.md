@@ -11,7 +11,6 @@ position: 2
 # Report Book Paging
 
 
-
 ## Report Book Paging
 
 Reports are displayed in the order they were added to the     	report book, each report starting on a new page. The way pages are counted (the evaluation of the 'PageNumber' global object) may be different in the context of a report book compared to counting pages in a single report. The Report class has a property of type __PageNumberingStyle__  that will let you control the behavior of page counting in the context of a report book.
@@ -43,4 +42,4 @@ __The value of the TextBox in the PageHeader is equal to = "Page: " + PageNumber
 
  * [Report Book Parameters]({%slug telerikreporting/designing-reports/report-book/report-book-parameters%})
 
- * [Page Settings, sizes and naming]({%slug telerikreporting/designing-reports/report-book/page-settings-sizes-and-namings%})
+ * [Page Settings, Sizes and Naming]({%slug telerikreporting/designing-reports/report-book/page-settings-sizes-and-namings%})

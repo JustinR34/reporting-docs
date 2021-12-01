@@ -45,5 +45,5 @@ The [Silverlight report viewer]({%slug telerikreporting/using-reports-in-applica
 >important In Firefox 19+ the default viewing option for PDF files is the  __PDF.js__ ,             which is not added as a plug-in and Firefox does not expose the content type viewing preferences -  [Firefox bugs](https://bugzilla.mozilla.org/show_bug.cgi?id=840439) .             Thus the Adobe PDF plug-in is always active whether or not it is the preferred viewing option.             To ensure the print operation in Firefox will be accomplished, clicking the print button would             export the report to PDF which will be printed with the available client viewing tools.           
 
 
-## See Also
+# See Also
 

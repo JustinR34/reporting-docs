@@ -86,7 +86,7 @@ The purpose of the Silverlight ReportViewer control is to display Telerik Report
 
 
 
-## See Also
+# See Also
 
 
  * [How to Add report viewer to a Silverlight application]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/silverlight-application/how-to-add-report-viewer-to-a-silverlight-application%})

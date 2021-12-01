@@ -25,7 +25,7 @@ The Panel item can be used to organize the layout of a report and allow items to
 
 
 
-## See Also
+# See Also
 
 
  * [Organizing the Report Layout via Panel item]({%slug telerikreporting/designing-reports/report-structure/design-considerations-for-report-item-layout%})

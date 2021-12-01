@@ -40,7 +40,7 @@ The following image displays a plain range chart with one range area series:
 
 * Gantt charts can be created using a range bar chart.
 
-## See Also
+# See Also
 
 
  * [Chart Types]({%slug telerikreporting/designing-reports/report-structure/graph/chart-types/overview%}) * [RangeAreaSeries](/reporting/api/Telerik.Reporting.RangeAreaSeries)  * [RangeBarSeries](/reporting/api/Telerik.Reporting.RangeBarSeries) 

@@ -335,5 +335,5 @@ kendo.all.min.js or kendo.web.min.js can be used as well if Kendo is used outsid
 
 1. Run the project and navigate to the view with the HTML5 ASP.NET MVC Report Viewer that we have just created.
 
-## See Also
+# See Also
 

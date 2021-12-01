@@ -83,7 +83,7 @@ In some cases, especially when using a __Logarithmic Scale__ , it is useful to h
 
 Please note that using this feature means that some of the scale properties like __MajorStep__ ,           __MinorStep__  and __LabelStep__  will not be respected, since the step will not be calculated.         
 
-## See Also
+# See Also
 
 
  * [Graph Structure]({%slug telerikreporting/designing-reports/report-structure/graph/structure%}) * [GraphAxis](/reporting/api/Telerik.Reporting.GraphAxis)  * [LabelFormat](/reporting/api/Telerik.Reporting.GraphAxis#Telerik_Reporting_GraphAxis_LabelFormat)  * [LabelPlacement](/reporting/api/Telerik.Reporting.GraphAxis#Telerik_Reporting_GraphAxis_LabelPlacement)  * [Scale](/reporting/api/Telerik.Reporting.GraphAxis#Telerik_Reporting_GraphAxis_Scale)  * [Scale](/reporting/api/Telerik.Reporting.Scale)  * [MajorStep](/reporting/api/Telerik.Reporting.NumericalScale#Telerik_Reporting_NumericalScale_MajorStep)  * [MinorStep](/reporting/api/Telerik.Reporting.NumericalScale#Telerik_Reporting_NumericalScale_MinorStep) 

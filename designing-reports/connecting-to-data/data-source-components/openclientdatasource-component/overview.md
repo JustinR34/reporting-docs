@@ -28,5 +28,5 @@ In order to be suitable for reporting purpose the ABL procedure has to have the 
 
 * .NET Framework 4.0 and above             
 
-## See Also
+# See Also
  * [Telerik.Reporting.OpenClientDataSource](/reporting/api/Telerik.Reporting.OpenClientDataSource) 

@@ -38,7 +38,7 @@ The following image shows a typical bar chart. The bar chart is well suited for 
 
 * If there are a lot of data points in your dataset relative to the size of your chart, the size of the bars         		and the spacing between them are reduced. To modify the width of the bars in a chart consider changing the 				__SpacingSlotCount__  property of the __category__  axis scale. By default the          		value is 1 which indicates equal widths of the bars and the free space. The greater the value is the more free space  				is reserved between the bars.
 
-## See Also
+# See Also
 
 
  * [Chart Types]({%slug telerikreporting/designing-reports/report-structure/graph/chart-types/overview%}) * [BarSeries](/reporting/api/Telerik.Reporting.BarSeries)  * [ArrangeMode](/reporting/api/Telerik.Reporting.GraphSeries2D#Telerik_Reporting_GraphSeries2D_ArrangeMode)  * [DataPointLabelAlignment](/reporting/api/Telerik.Reporting.BarSeries#Telerik_Reporting_BarSeries_DataPointLabelAlignment)  * [SpacingSlotCount](/reporting/api/Telerik.Reporting.Scale#Telerik_Reporting_Scale_SpacingSlotCount) 

@@ -219,7 +219,7 @@ Instead of a hard-coded string the property can be set in a method/contructor or
 
 [Setting a Theme (Using Implicit Styles)]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/wpf-application/setting-a-theme-(using-implicit-styles)%})
 
-## See Also
+# See Also
 
 
 # See Also

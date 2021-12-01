@@ -56,7 +56,7 @@ In the __Form_Load__  event handler you create an instance report source and set
 
 If the current application has to be declared as DPI-aware, an additional element needs to be added to the application manifest file, as explained           [here](F25EB909-7941-4B78-B24C-4025257A26C4#dpiAware).         
 
-## See Also
+# See Also
 [](66CD7D60-7708-42D5-8BB4-506676E8679E)
 
  * [Windows Forms Application]({%slug telerikreporting/using-reports-in-applications/display-reports-in-applications/windows-forms-application/overview%})

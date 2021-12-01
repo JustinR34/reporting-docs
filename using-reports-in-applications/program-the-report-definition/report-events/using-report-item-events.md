@@ -64,7 +64,7 @@ As explained in [Understanding Events]({%slug telerikreporting/using-reports-in-
 >note The provided example can be easily implemented using ConditionalFormatting, see              [Change row color based on a value in the row](https://docs.telerik.com/reporting/knowledge-base/change-row-color-based-on-value)              or Bindings, see [Bindings]({%slug telerikreporting/designing-reports/connecting-to-data/expressions/using-expressions/bindings%}).           
 
 
-## See Also
+# See Also
 
 
  * [Access Report Items Programmatically]({%slug telerikreporting/using-reports-in-applications/program-the-report-definition/access-report-items-programmatically%})

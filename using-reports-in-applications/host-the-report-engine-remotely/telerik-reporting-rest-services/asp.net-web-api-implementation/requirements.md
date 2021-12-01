@@ -67,5 +67,5 @@ Requirements for using __Telerik Reporting REST WebAPI service__  in an applicat
 
    + [CubeDataSource]({%slug telerikreporting/designing-reports/connecting-to-data/data-source-components/cubedatasource-component/overview%}) requires                   __Telerik.Reporting.Adomd.dll__  and [Third-Party Dependencies]({%slug telerikreporting/using-reports-in-applications/third-party-dependencies%})                   (*Microsoft.AnalysisServices.AdomdClient.dll*  v.10.0.0.0 or [above with proper binding redirects]({%slug telerikreporting/designing-reports/connecting-to-data/data-source-components/cubedatasource-component/configuring-your-project-for-using-microsoft-analysis-services%})).                 
 
-## See Also
+# See Also
 

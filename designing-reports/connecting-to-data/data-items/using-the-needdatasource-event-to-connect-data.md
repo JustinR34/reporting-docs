@@ -49,7 +49,7 @@ End Sub
 
 
 
-## See Also
+# See Also
 
 
  * [Connecting to Data]({%slug telerikreporting/designing-reports/connecting-to-data/overview%})
