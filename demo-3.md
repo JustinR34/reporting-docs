@@ -1,9 +1,9 @@
 ---
-title: demo1
-page_title: demo1
-description: demo1
-slug: telerikreporting/demo1
-tags: demo1
+title: demo
+page_title: demo
+description: demo
+slug: telerikreporting/demo
+tags: demo
 published: True
 position: 2
 ---
@@ -38,234 +38,273 @@ The project has a preconfigured implementation of reports controller that uses t
 
 1. Invoke 0 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 	protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-	````
-	````VB
+	```
+	```VB
 	Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-	````
+	```
 
 
 1. Invoke 1 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 	protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-	````
+	```
 	
-	````VB
+	```VB
 	Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-	````
+	```
 
 
 1. Invoke 2 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 		protected void Application_Start()
 		{
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		}
-	````
-	````VB
+	```
+	```VB
 		Sub Application_Start()
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		End Sub
-	````
+	```
 
 
 1. Invoke 3 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 		protected void Application_Start()
 		{
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		}
-	````
+	```
 	
-	````VB
+	```VB
 		Sub Application_Start()
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 			ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		End Sub
-	````
+	```
 
 
 1. Invoke 4 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-````
-	````VB
+```
+	```VB
 Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-````
+```
 
 
 1. Invoke 5 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-````
+```
 
-	````VB
+	```VB
 Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-````
+```
 
 
 1. Invoke 6 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 protected void Application_Start()
 {
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 }
-````
-	````VB
+```
+	```VB
 Sub Application_Start()
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 End Sub
-````
+```
 
 
 1. Invoke 7 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 protected void Application_Start()
 {
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 }
-````
+```
 
-	````VB
+	```VB
 Sub Application_Start()
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 End Sub
-````
+```
 
 
 1. Invoke 8 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 	protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-````
-	````VB
+```
+	```VB
 	Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-````
+```
 
 
 1. Invoke 9 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-	````C#
+	```C#
 	protected void Application_Start()
 	{
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	}
-````
+```
 
-	````VB
+	```VB
 	Sub Application_Start()
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	End Sub
-````
+```
 
 
 1. Invoke 10 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-````C#
+```C#
 protected void Application_Start()
 {
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 }
-````
-````VB
+```
+```VB
 Sub Application_Start()
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 End Sub
-````
+```
 
 
 1. Invoke 11 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
 
-````C#
+```C#
 protected void Application_Start()
 {
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
 }
-````
+```
 
-````VB
+```VB
 Sub Application_Start()
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 	ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
 End Sub
-````
+```
+
+
+1. Invoke 12 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
+
+	```C#
+	protected void Application_Start()
+	{
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	}
+
+	```VB
+	Sub Application_Start()
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	End Sub
+	```
+
+
+1. Invoke 13 RegisterRoutes `Global.Application_Start (Global.asax)` method: 
+
+	```C#
+	protected void Application_Start()
+	{
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	}
+	
+	
+	```VB
+	Sub Application_Start()
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	End Sub
+	```
 
