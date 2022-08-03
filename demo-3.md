@@ -308,3 +308,66 @@ End Sub
 	End Sub
 	```
 
+
+1. Invoke 14 - __Empty line of code__ - RegisterRoutes `Global.Application_Start (Global.asax)` method: 
+
+	```C#
+protected void Application_Start()
+	{
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	}
+```
+	```VB
+Sub Application_Start()
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	End Sub
+```
+
+
+1. Invoke 15 - __Empty lines of code with TAB__ - RegisterRoutes `Global.Application_Start (Global.asax)` method: 
+
+	```C#
+protected void Application_Start()
+	{
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	}
+```
+	```VB
+Sub Application_Start()
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	End Sub
+```
+
+
+1. Invoke 16 - __Empty lines of code with SPACE__ - RegisterRoutes `Global.Application_Start (Global.asax)` method: 
+
+	```C#
+protected void Application_Start()
+	{
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+ 
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration);
+	}
+```
+	```VB
+Sub Application_Start()
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+ 
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+		ReportsControllerConfiguration.RegisterRoutes(GlobalConfiguration.Configuration)
+	End Sub
+```
+
